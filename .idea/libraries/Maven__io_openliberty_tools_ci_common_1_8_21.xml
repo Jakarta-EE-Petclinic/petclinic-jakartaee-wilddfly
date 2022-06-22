@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.openliberty.tools:ci.common:1.8.21">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openliberty/tools/ci.common/1.8.21/ci.common-1.8.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openliberty/tools/ci.common/1.8.21/ci.common-1.8.21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/openliberty/tools/ci.common/1.8.21/ci.common-1.8.21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

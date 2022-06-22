@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpecialtyPageIT" type="JUnit" factoryName="JUnit" singleton="false" nameIsGenerated="true">
+    <module name="petclinic-jakartaee" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.woehlke.jakartaee.petclinic.specialty.views.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="org.woehlke.jakartaee.petclinic.specialty.views" />
+    <option name="MAIN_CLASS_NAME" value="org.woehlke.jakartaee.petclinic.specialty.views.SpecialtyPageIT" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="wholeProject" />
+    </option>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
