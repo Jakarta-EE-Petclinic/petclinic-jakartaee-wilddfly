@@ -347,7 +347,7 @@
 				<artifactId>arquillian-bom</artifactId>
 				<version>${version.org.jboss.arquillian.arquillian-bom}</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.arquillian.selenium</groupId>
@@ -361,21 +361,21 @@
 				<artifactId>arquillian-drone-bom</artifactId>
 				<version>S{version.arquillian_drone_bom}</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.shrinkwrap.descriptors</groupId>
 				<artifactId>shrinkwrap-descriptors-depchain</artifactId>
 				<version>${version.org.jboss.shrinkwrap.descriptors.shrinkwrap-descriptors-depchain}</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.shrinkwrap.resolver</groupId>
 				<artifactId>shrinkwrap-resolver-bom</artifactId>
 				<version>${version.org.jboss.shrinkwrap.resolver.shrinkwrap-resolver-bom}</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
@@ -383,60 +383,60 @@
 				<artifactId>graphene-webdriver</artifactId>
 				<version>2.5.4</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.wildfly.arquillian</groupId>
 				<artifactId>wildfly-arquillian-container-remote</artifactId>
 				<version>3.0.1.Final</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.wildfly.arquillian</groupId>
 				<artifactId>wildfly-arquillian-container-managed</artifactId>
 				<version>3.0.1.Final</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.jboss.arquillian.junit</groupId>
 				<artifactId>arquillian-junit-container</artifactId>
 				<version>${version.org.jboss.arquillian.arquillian-bom}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.arquillian.container</groupId>
 				<artifactId>arquillian-container-test-impl-base</artifactId>
 				<version>${version.org.jboss.arquillian.arquillian-bom}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.jboss.arquillian.config</groupId>
 				<artifactId>arquillian-config-impl-base</artifactId>
 				<version>${version.org.jboss.arquillian.arquillian-bom}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.jboss.arquillian.extension</groupId>
 				<artifactId>arquillian-drone-impl</artifactId>
 				<version>2.5.4</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.arquillian.graphene</groupId>
 				<artifactId>graphene-webdriver-impl</artifactId>
 				<version>2.5.4</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.jboss.shrinkwrap.descriptors</groupId>
 				<artifactId>shrinkwrap-descriptors-impl-base</artifactId>
 				<version>${version.org.jboss.shrinkwrap.descriptors.shrinkwrap-descriptors-depchain}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<!-- Jakarta EE Runtime: Wildfly -->
@@ -445,7 +445,32 @@
 				<artifactId>wildfly-release</artifactId>
 				<version>26.1.1.Final</version>
 				<type>pom</type>
-				<scope>test</scope>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-dist</artifactId>
+				<version>26.1.1.Final</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-ee-jakarta</artifactId>
+				<version>26.1.1.Final</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-undertow</artifactId>
+				<version>26.1.1.Final</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.wildfly</groupId>
+				<artifactId>wildfly-galleon-pack</artifactId>
+				<version>26.1.1.Final</version>
+				<type>pom</type>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
@@ -533,62 +558,62 @@
 				<groupId>org.primefaces</groupId>
 				<artifactId>primefaces-selenium-core</artifactId>
 				<version>${version.org.primefaces}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.primefaces</groupId>
 				<artifactId>primefaces-selenium-components</artifactId>
 				<version>${version.org.primefaces}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.primefaces</groupId>
 				<artifactId>primefaces-cli</artifactId>
 				<version>${version.org.primefaces}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-engine</artifactId>
 				<version>${junit.version}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-params</artifactId>
 				<version>${junit.version}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>4.13.2</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.resteasy</groupId>
 				<artifactId>resteasy-client</artifactId>
 				<version>${version.org.jboss.resteasy}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.resteasy</groupId>
 				<artifactId>resteasy-json-binding-provider</artifactId>
 				<version>${version.org.jboss.resteasy}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.resteasy</groupId>
 				<artifactId>resteasy-jaxb-provider</artifactId>
 				<version>${version.org.jboss.resteasy}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.glassfish</groupId>
 				<artifactId>jakarta.json</artifactId>
 				<version>2.0.1</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<!-- Java utility classes -->
 			<dependency>
@@ -622,6 +647,14 @@
 					<exclusion>
 						<groupId>javax.enterprise</groupId>
 						<artifactId>cdi-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.apache.maven.*</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.jboss.shrinkwrap.*</groupId>
+						<artifactId>*</artifactId>
 					</exclusion>
 				</exclusions>
 			</dependency>
@@ -707,26 +740,26 @@
 				<artifactId>maven-failsafe-plugin</artifactId>
 				<version>3.0.0-M7</version>
 				<type>maven-plugin</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M7</version>
 				<type>maven-plugin</type>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.arquillian.junit</groupId>
 				<artifactId>arquillian-junit-core</artifactId>
 				<version>${version.org.jboss.arquillian.arquillian-bom}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.shrinkwrap.resolver</groupId>
 				<artifactId>shrinkwrap-resolver-impl-maven</artifactId>
 				<version>${version.org.jboss.shrinkwrap.resolver.shrinkwrap-resolver-bom}</version>
-				<scope>test</scope>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.jboss.shrinkwrap.resolver</groupId>
@@ -741,12 +774,12 @@
 		<dependency>
 			<groupId>jakarta.platform</groupId>
 			<artifactId>jakarta.jakartaee-api</artifactId>
-			<scope>compile</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>jakarta.platform</groupId>
 			<artifactId>jakarta.jakartaee-web-api</artifactId>
-			<scope>compile</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- Frontend webjars for HTML, CSS and JS -->
@@ -778,17 +811,39 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces-selenium-core</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces-selenium-components</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces-cli</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-dist</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-ee-jakarta</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-undertow</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-galleon-pack</artifactId>
+			<type>pom</type>
+			<scope>provided</scope>
 		</dependency>
 
 
@@ -800,93 +855,96 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-params</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.wildfly.arquillian</groupId>
 			<artifactId>wildfly-arquillian-container-remote</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.wildfly.arquillian</groupId>
 			<artifactId>wildfly-arquillian-container-managed</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.arquillian.junit</groupId>
 			<artifactId>arquillian-junit-container</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.container</groupId>
 			<artifactId>arquillian-container-test-impl-base</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.extension</groupId>
 			<artifactId>arquillian-drone-impl</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.graphene</groupId>
 			<artifactId>graphene-webdriver-impl</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.config</groupId>
 			<artifactId>arquillian-config-impl-base</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.shrinkwrap.descriptors</groupId>
 			<artifactId>shrinkwrap-descriptors-impl-base</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-client</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-json-binding-provider</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxb-provider</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish</groupId>
 			<artifactId>jakarta.json</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<!-- Java utility classes -->
 		<dependency>
@@ -984,23 +1042,23 @@
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-failsafe-plugin</artifactId>
 			<type>maven-plugin</type>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-surefire-plugin</artifactId>
 			<type>maven-plugin</type>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.arquillian.junit</groupId>
 			<artifactId>arquillian-junit-core</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.shrinkwrap.resolver</groupId>
 			<artifactId>shrinkwrap-resolver-impl-maven</artifactId>
-			<scope>test</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.shrinkwrap.resolver</groupId>
@@ -1122,7 +1180,14 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
-					<packagingExcludes>pom.xml</packagingExcludes>
+					<packagingExcludes>pom.xml,
+						WEB-INF/lib/aether*.jar,
+						WEB-INF/lib/shrinkwrap*.jar,
+						WEB-INF/lib/maven-*.jar,
+						WEB-INF/lib/plexus-*.jar,
+						WEB-INF/lib/javax*.jar,
+						WEB-INF/lib/checker*.jar
+					</packagingExcludes>
 				</configuration>
 				<executions>
 					<execution>
@@ -1200,6 +1265,7 @@
 				</configuration>
 				<executions>
 					<!-- Undeploy the application on clean -->
+					<!--
 					<execution>
 						<id>undeploy</id>
 						<phase>clean</phase>
@@ -1210,7 +1276,7 @@
 							<ignoreMissingDeployment>true</ignoreMissingDeployment>
 						</configuration>
 					</execution>
-
+					-->
 					<!-- Deploy the JDBC library -->
 					<execution>
 						<id>deploy-driver</id>
@@ -1312,6 +1378,8 @@
 					</execution>
 
 					<!-- Deploy the application on install -->
+
+					<!--
 					<execution>
 						<id>deploy</id>
 						<phase>install</phase>
@@ -1319,6 +1387,7 @@
 							<goal>deploy</goal>
 						</goals>
 					</execution>
+					-->
 				</executions>
 			</plugin>
 			<plugin>
