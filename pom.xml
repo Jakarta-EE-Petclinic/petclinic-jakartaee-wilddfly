@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.woehlke.jakartaee</groupId>
-	<artifactId>petclinic-jakartaee-liberty</artifactId>
+	<artifactId>petclinic-jakartaee-wildfly</artifactId>
 	<packaging>war</packaging>
 	<version>9.1.0.13-SNAPSHOT</version>
 
@@ -543,13 +543,6 @@
 			</dependency>
 			<dependency>
 				<groupId>org.primefaces</groupId>
-				<artifactId>primefaces-integration-tests</artifactId>
-				<version>${version.org.primefaces}</version>
-				<type>war</type>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.primefaces</groupId>
 				<artifactId>primefaces-cli</artifactId>
 				<version>${version.org.primefaces}</version>
 				<scope>test</scope>
@@ -565,6 +558,12 @@
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-params</artifactId>
 				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.13.2</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
@@ -806,6 +805,11 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-params</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
 

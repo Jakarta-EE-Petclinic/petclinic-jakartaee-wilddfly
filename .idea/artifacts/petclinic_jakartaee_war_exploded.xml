@@ -14,6 +14,8 @@
           <element id="module-output" name="petclinic-jakartaee" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jakarta.platform:jakarta.jakartaee-api:9.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.platform:jakarta.jakartaee-web-api:9.1.0" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:3.6.0" />
           <element id="library" level="project" name="Maven: org.webjars:popper.js:2.9.3" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:5.1.3" />
